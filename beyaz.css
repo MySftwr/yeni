@@ -3,6 +3,7 @@
      padding: 0;
      font-family: Sans-Serif;
      box-sizing: border-box;
+      
      
  }
  .main{
@@ -18,7 +19,7 @@
     justify-content: space-between;
     box-shadow: 0px 0px 10px black;
     position: fixed;
-    flex-wrap: wrap;
+   
 }
 
 .icon{
@@ -37,11 +38,9 @@
     height: 0px;
     outline: none;
    margin-top: 15px;
+
    transition: all .2s;
    margin-top: 0px;
-   z-index: 3;
-   
-  
     
 }
 #search{
@@ -55,6 +54,7 @@ cursor: pointer;
 
 }
 .inputt:hover{
+
     width: 350px;
     height: 50px;
     border: 4px solid #0052FF;
@@ -64,6 +64,7 @@ background: #ffffff ;
 color: black;
 position: fixed;
 margin-top: 80px;
+
 
 }
 .divin{
@@ -193,13 +194,147 @@ footer{
    align-items: center;
 }
 .content .baslik{
-   font-weight: bold;
-   font-size: 20px;
+margin-left: 2%;
+    display: flex;
+    column-gap: 2%;
+    margin-top: 20px;
+    
+}
+.content .baslik .fonta{
 display: flex;
 justify-content: center;
-  margin-top: 30px; 
-   
+padding-top: 20px;
+padding-bottom: 25px;
+    width: 47%;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+    border: 4px solid black;
+    transition: .2s;
 }
+.content .baslik .fontb{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-left: ;
+width: 47%;
+height: 100px;
+border-radius: 10px;
+background: white;  
+border: 4px solid black;
+transition: .2s;
+}
+.content .baslik .fonta a{
+
+font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+.content .baslik  .fontb a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+/* ararta */
+.content .baslik{
+margin-left: 2%;
+    display: flex;
+    column-gap: 2%;
+    margin-top: 20px;
+    
+}
+.content .baslik .fontc{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 25px;
+    width: 47%;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+    border: 4px solid black;
+    transition: .2s;
+}
+.content .baslik .fontd{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-left: ;
+width: 47%;
+height: 100px;
+border-radius: 10px;
+background: white;  
+border: 4px solid black;
+transition: .2s;
+}
+.content .baslik  .fontc a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+.content .baslik  .fontd a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+/* ararta 2 */
+.content .baslik{
+margin-left: 2%;
+    display: flex;
+    column-gap: 2%;
+    margin-top: 20px;
+    
+}
+.content .baslik .fonte{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 25px;
+    width: 47%;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+    border: 4px solid black;
+    transition: .2s;
+}
+.content .baslik .fontf{
+display: flex;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-left: ;
+width: 47%;
+height: 100px;
+border-radius: 10px;
+background: white;  
+border: 4px solid black;
+transition: .2s;
+}
+.content .baslik  .fonte a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+.content .baslik  .fontf a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: .2s;
+}
+
 .cerez {
 position: absolute;
     display: flex;
@@ -231,9 +366,107 @@ margin-top: -20px;
 .sart a{
     color: #1523ffe6;
     text-decoration: none;
+    
 }
 .sart p{
     color: white;
-    font-size: 25px;
+    font-size: 25px;  
+}
+/* hover 1 */
+.content .baslik .fonta:hover{
+    background: black;
+}
+.content .baslik .fontb:hover{
+    background: black;
+}
+.content .baslik .fonta a:hover{
+    color: white;
+}
+.content .baslik .fontb a:hover{
+    color: white;
+}
+/* hover 2 */
+.content .baslik .fontc:hover{
+    background: black;
+}
+.content .baslik .fontd:hover{
+    background: black;
+}
+.content .baslik .fontc a:hover{
+    color: white;
+}
+.content .baslik .fontd a:hover{
+    color: white;
+}
+/* hover 3 */
+.content .baslik .fonte:hover{
+    background: black;
+}
+.content .baslik .fontf:hover{
+    background: black;
+}
+.content .baslik .fonte a:hover{
+    color: white;
+}
+.content .baslik .fontf a:hover{
+    color: white;
+}
+.tavsiye .kanal ul:first-child{
+margin-bottom: 10px;
     
+}
+.tavsiye .kanal {
+    margin-left: 3%;
+    
+    
+    
+}
+.tavsiye .kanal div {
+    width: 96%;
+    height: 100px;
+    background: white;
+    list-style-type: none;
+    
+}
+.tavsiye h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.tavsiye .kanal img{
+    width: 100px;
+    height: 100px;
+}
+.tavsiye .kanal div a{
+margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.tavsiye .kanal .snf1{
+margin-bottom: 10px;
+    display: flex;
+}
+.tavsiye .kanal .snf1 .knl{
+    width: 100px;
+    height: 100px;
+    
+}
+.tavsiye .kanal .snf1 .aciklama{
+    font-size: 20px;
+    margin-left: -580px;
+    margin-right: 2%;
+    margin-top: 40px;
+    
+}
+.benim{
+    width: 96%;
+    height: 100px;
+}
+.content{
+    height: 100%;
 }
